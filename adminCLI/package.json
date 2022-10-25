@@ -1,0 +1,24 @@
+{
+  "name": "admin-nodejs",
+  "version": "1.0.0",
+  "description": "testing admin",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vgs",
+  "license": "ISC",
+  "bin": {
+    "signin": "./bin/signin.js",
+    "signup": "./bin/signup.js",
+    "getProjects": "./bin/getProjects.js",
+    "getUserTasks": "./bin/getUserTasks.js",
+    "addUserToProject": "./bin/addUserToProject.js",
+    "removeUserFromProject": "./bin/removeUserFromProject.js",
+    "changeTaskStatus": "./bin/changeTaskStatus.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "yargs": "^13.3.2"
+  }
+}
